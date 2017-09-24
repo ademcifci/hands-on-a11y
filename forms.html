@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Screen Reader Practice: Forms</title>
+</head>
+
+<body>
+<h1>Screen Reader Practice: Forms </h1>
+
+
+<h2>Labeled Form </h2>
+<form id="form1" method="post" action="">
+<label for="textfield2">First Name:</label>
+<input type="text" name="textfield2" id="textfield2" />
+<label for="label">Last Name:</label>
+<input type="text" name="textfield2" id="label" />
+<br /><br />
+<fieldset>
+	<legend>Choose a color:</legend>
+	<br />
+	<input id="blue" type="checkbox" name="checkbox" value="checkbox" />
+	<label for="blue">Blue</label>
+	<br />
+	<input id="green" type="checkbox" name="checkbox2" value="checkbox" />
+	<label for="green">Green</label>
+	<br />
+	<input id="yellow" type="checkbox" name="checkbox3" value="checkbox" />
+	<label for="yellow">Yellow</label>
+</fieldset>
+
+<br /><br />
+<label for="favcity">Which is your favorite city?</label>
+<select id="favcity" name="select">
+	<option value="1">Melbourne</option>
+	<option value="3">Sydney</option>
+	<option value="4">Brisbane</option>
+	<option value="5">Adelaide</option>
+	<option value="2">New York</option>
+</select>
+
+<input type="submit" value="Submit" />
+	
+</form>
+<br /><br />
+<h2>Unlabeled Form </h2>
+<p>The following form is similar to the previous form, but without labels and fieldsets. When a form does not have a label, the screen reader will attempt to auto-label the form.</p>
+<form id="form12" method="post" action="">
+First Name: 
+<input type="text" name="textfield123" id="textfield123" />
+
+Last Name:
+<input type="text" name="textfield22" id="textfield22" />
+<br /><br />
+Choose a color:<br />
+
+<input id="blue2" type="checkbox" name="checkbox" value="checkbox" />
+Blue
+<br />
+<input id="green2" type="checkbox" name="checkbox2" value="checkbox" />
+Green
+<br />
+<input id="yellow2" type="checkbox" name="checkbox3" value="checkbox" />
+Yellow	
+<br /><br />
+Which is your favorite city? <br />
+<select id="favcity2" name="select">
+<option value="1">Melbourne</option>
+<option value="3">Sydney</option>
+<option value="4">Brisbane</option>
+<option value="5">Adelaide</option>
+<option value="2">New York</option>
+</select>
+
+<input type="submit" value="Submit" />
+
+</form>
